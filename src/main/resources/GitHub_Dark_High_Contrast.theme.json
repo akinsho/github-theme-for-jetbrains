@@ -3,9 +3,13 @@
   "dark": true,
   "author": "Bhushan <bhushangaykawad@gmail.com>",
   "editorScheme": "/GitHub_Dark_High_Contrast.xml",
+  "colors": {
+    "Black": "#090c10",
+    "DarkBlue": "#0d1118"
+  },
   "ui": {
     "*": {
-      "background": "#090c10",
+      "background": "Black",
       "foreground": "#c9d1d9",
       "selectionBackground": "#173456",
       "selectionInactiveBackground": "#173456",
@@ -15,9 +19,20 @@
       "separatorColor": "#30363d",
       "lineSeparatorColor": "#30363d"
     },
-    "ToolWindow.Header.inactiveBackground": "#0d1118",
+    "ToolWindow": {
+      "background": "DarkBlue",
+      "Header": {
+        "background": "DarkBlue",
+        "inactiveBackground": "DarkBlue"
+      }
+    },
+    "Popup": {
+      "Header": {
+        "activeBackground": "DarkBlue"
+      }
+    },
     "EditorTabs": {
-      "underlinedTabBackground": "#0d1116"
+      "underlinedTabBackground": "Black"
     }
   }
 }
