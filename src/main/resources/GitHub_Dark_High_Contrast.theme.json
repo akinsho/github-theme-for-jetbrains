@@ -19,6 +19,24 @@
       "separatorColor": "#30363d",
       "lineSeparatorColor": "#30363d"
     },
+    "Button": {
+      "foreground": "#F0F6FC",
+      "loadingForeground": "#F0F6FC",
+      "startBackground": "#2A313C",
+      "endBackground": "#2A313C",
+      "startBorderColor": "#3D444D",
+      "endBorderColor": "#3D444D",
+      "focusedBorderColor": "#3D444D"
+    },
+    "NotificationsToolwindow": {
+      "newNotification": {
+        "background": "#30363d80",
+        "hoverBackground": "#30363d50"
+      },
+      "Notification": {
+        "hoverBackground": "#30363d50"
+      }
+    },
     "ToolWindow": {
       "background": "DarkBlue",
       "Header": {
